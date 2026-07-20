@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title id="page-title">Sandipa &amp; Himal – Haldi &amp; Mehendi Invitation</title>
+  <meta name="description" id="page-meta-desc" content="You are cordially invited to the Haldi & Mehendi ceremony of Sandipa & Himal." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="splash-active">
+
+<!-- ===== SPLASH / INTRO SCREEN ===== -->
+<div id="splash-screen" class="splash-screen">
+  <!-- Floating flowers background -->
+  <div class="splash-petals" id="splash-petals"></div>
+
+  <!-- Shimmer particles -->
+  <div class="splash-particles" id="splash-particles"></div>
+
+  <div class="splash-content">
+    <!-- Top decorative line -->
+    <div class="splash-ornament-top">
+      <svg viewBox="0 0 300 30" xmlns="http://www.w3.org/2000/svg">
+        <line x1="0" y1="15" x2="120" y2="15" stroke="#d4730a" stroke-width="0.8" opacity="0.6"/>
+        <circle cx="140" cy="15" r="3" fill="none" stroke="#d4730a" stroke-width="0.8" opacity="0.8"/>
+        <circle cx="150" cy="15" r="5" fill="none" stroke="#d4730a" stroke-width="1" opacity="1"/>
+        <circle cx="160" cy="15" r="3" fill="none" stroke="#d4730a" stroke-width="0.8" opacity="0.8"/>
+        <line x1="180" y1="15" x2="300" y2="15" stroke="#d4730a" stroke-width="0.8" opacity="0.6"/>
+      </svg>
+    </div>
+
+    <p class="splash-invite-text">You are warmly invited to celebrate</p>
+
+    <!-- Clickable logo -->
+    <button id="splash-logo-btn" class="splash-logo-btn" aria-label="Enter the Haldi Mehendi invitation">
+      <div class="splash-logo-ring">
+        <img src="logo.png" alt="S & H Haldi Mehendi Monogram" class="splash-logo-img" />
+        <div class="splash-logo-glow"></div>
+      </div>
+      <div class="splash-click-hint">
+        <span class="splash-hint-text">Tap to open your invitation</span>
+        <div class="splash-hint-dots">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+    </button>
+
+    <!-- Bottom decorative text -->
+    <div class="splash-bottom">
+      <div class="splash-ornament-bottom">
+        <svg viewBox="0 0 300 30" xmlns="http://www.w3.org/2000/svg">
+          <line x1="0" y1="15" x2="110" y2="15" stroke="#d4730a" stroke-width="0.8" opacity="0.6"/>
+          <path d="M 128 15 L 140 7 L 152 15 L 140 23 Z" fill="none" stroke="#d4730a" stroke-width="0.8" opacity="0.8"/>
+          <line x1="168" y1="15" x2="300" y2="15" stroke="#d4730a" stroke-width="0.8" opacity="0.6"/>
+        </svg>
+      </div>
+      <p class="splash-tagline">S &amp; H &nbsp;·&nbsp; Haldi &amp; Mehendi &nbsp;·&nbsp; A Day of Joy</p>
+    </div>
+  </div>
+</div>
+
+<!-- ===== HERO SECTION ===== -->
+<section id="hero" class="hero-section">
+  <div class="hero-overlay"></div>
+
+  <!-- Floating marigold petals -->
+  <div class="petal-container" id="petal-container"></div>
+
+  <div class="hero-content">
+    <div class="hero-ceremony-badge">🌼 HALDI &amp; MEHENDI CEREMONY 🌿</div>
+    <div class="hero-top-ornament">
+      <svg viewBox="0 0 300 40" xmlns="http://www.w3.org/2000/svg">
+        <line x1="0" y1="20" x2="110" y2="20" stroke="currentColor" stroke-width="0.8" opacity="0.7"/>
+        <circle cx="130" cy="20" r="4" fill="none" stroke="currentColor" stroke-width="0.8" opacity="0.7"/>
+        <circle cx="150" cy="20" r="6" fill="none" stroke="currentColor" stroke-width="0.8" opacity="0.9"/>
+        <circle cx="170" cy="20" r="4" fill="none" stroke="currentColor" stroke-width="0.8" opacity="0.7"/>
+        <line x1="190" y1="20" x2="300" y2="20" stroke="currentColor" stroke-width="0.8" opacity="0.7"/>
+      </svg>
+    </div>
+    <p class="hero-invitation-text">Together with their families</p>
+    <h1 class="hero-names">
+      <span id="hero-bride" class="bride-name">Sandipa</span>
+      <span class="hero-ampersand">&amp;</span>
+      <span id="hero-groom" class="groom-name">Himal</span>
+    </h1>
+    <p class="hero-subtitle">Request the joy of your presence</p>
+    <div class="hero-bottom-ornament">
+      <svg viewBox="0 0 300 40" xmlns="http://www.w3.org/2000/svg">
+        <line x1="0" y1="20" x2="110" y2="20" stroke="currentColor" stroke-width="0.8" opacity="0.7"/>
+        <path d="M 130 20 L 150 8 L 170 20 L 150 32 Z" fill="none" stroke="currentColor" stroke-width="0.8" opacity="0.8"/>
+        <line x1="190" y1="20" x2="300" y2="20" stroke="currentColor" stroke-width="0.8" opacity="0.7"/>
+      </svg>
+    </div>
+    <div class="hero-date-badge">
+      <span id="hero-date-display">Friday, August 15th, 2025</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===== COUNTDOWN SECTION ===== -->
+<section id="countdown" class="countdown-section">
+  <div class="section-container">
+    <p class="section-eyebrow">Counting Down To</p>
+    <h2 class="section-title fancy">Our Haldi &amp; Mehendi Day</h2>
+    <div class="countdown-timer" id="countdown-timer">
+      <div class="countdown-unit">
+        <div class="countdown-number" id="cd-days">00</div>
+        <div class="countdown-label">Days</div>
+      </div>
+      <div class="countdown-sep">:</div>
+      <div class="countdown-unit">
+        <div class="countdown-number" id="cd-hours">00</div>
+        <div class="countdown-label">Hours</div>
+      </div>
+      <div class="countdown-sep">:</div>
+      <div class="countdown-unit">
+        <div class="countdown-number" id="cd-minutes">00</div>
+        <div class="countdown-label">Minutes</div>
+      </div>
+      <div class="countdown-sep">:</div>
+      <div class="countdown-unit">
+        <div class="countdown-number" id="cd-seconds">00</div>
+        <div class="countdown-label">Seconds</div>
+      </div>
+    </div>
+    <div id="countdown-past-msg" class="countdown-past hidden">
+      🌼 The celebrations have begun! Wishing the couple a life full of joy and colour!
+    </div>
+  </div>
+</section>
+
+<!-- ===== RITUALS SECTION ===== -->
+<section id="rituals" class="rituals-section">
+  <div class="section-container">
+    <p class="section-eyebrow">About the Ceremonies</p>
+    <h2 class="section-title fancy">The Sacred Rituals</h2>
+    <div class="rituals-grid">
+      <div class="ritual-card">
+        <div class="ritual-icon">🌿</div>
+        <h3>Haldi Ceremony</h3>
+        <p>The Haldi ceremony is a sacred ritual where turmeric paste is applied to the bride and groom, blessing them with radiance, prosperity, and protection from evil before the wedding.</p>
+      </div>
+      <div class="ritual-card">
+        <div class="ritual-icon">🎨</div>
+        <h3>Mehendi Ceremony</h3>
+        <p>The Mehendi night is a time of joy and celebration where intricate henna designs are applied on the bride's hands and feet, symbolising love, luck, and the bond between two souls.</p>
+      </div>
+      <div class="ritual-card">
+        <div class="ritual-icon">🌸</div>
+        <h3>Music &amp; Dance</h3>
+        <p>An evening filled with traditional songs, folk music, and joyful dances celebrating the union of two families coming together in love and festivity.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== COUPLE SECTION ===== -->
+<section id="couple" class="couple-section">
+  <div class="section-container">
+    <p class="section-eyebrow">About Us</p>
+    <h2 class="section-title fancy">The Happy Couple</h2>
+
+    <div class="couple-layout">
+      <div class="couple-photo-frame">
+        <div class="couple-photo-inner">
+          <img id="main-couple-photo" src="couple.png" alt="Sandipa and Himal" />
+        </div>
+        <div class="photo-frame-corner tl"></div>
+        <div class="photo-frame-corner tr"></div>
+        <div class="photo-frame-corner bl"></div>
+        <div class="photo-frame-corner br"></div>
+      </div>
+      <div class="couple-info">
+        <div class="couple-member">
+          <div class="member-icon">👰</div>
+          <div>
+            <h3 id="display-bride">Sandipa Pant</h3>
+            <p class="member-role">Bride-to-be</p>
+          </div>
+        </div>
+        <div class="couple-heart">♥</div>
+        <div class="couple-member reverse">
+          <div class="member-icon">🤵</div>
+          <div>
+            <h3 id="display-groom">Himal Adhikari</h3>
+            <p class="member-role">Groom-to-be</p>
+          </div>
+        </div>
+        <blockquote id="display-quote" class="couple-quote">
+          "Like turmeric brings colour and warmth, may our love always be vibrant and bright."
+        </blockquote>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== EVENTS SECTION ===== -->
+<section id="events" class="events-section">
+  <div class="section-container">
+    <p class="section-eyebrow">Join Us</p>
+    <h2 class="section-title fancy">Ceremony Events</h2>
+
+    <div class="events-grid">
+      <!-- Haldi & Mehendi Card -->
+      <div class="event-card">
+        <div class="event-card-icon">🌿🎨</div>
+        <div class="event-card-label">HALDI &amp; MEHENDI CEREMONY</div>
+        <h3 id="display-haldi-venue">Pant Family Residence</h3>
+        <div class="event-divider"></div>
+        <div class="event-detail">
+          <span class="event-detail-icon">📅</span>
+          <span id="display-haldi-date">Friday, August 15th, 2025</span>
+        </div>
+        <div class="event-detail">
+          <span class="event-detail-icon">⏰</span>
+          <span id="display-haldi-time">10:00 AM</span>
+        </div>
+        <div class="event-detail">
+          <span class="event-detail-icon">📍</span>
+          <span id="display-haldi-address">Kathmandu, Nepal</span>
+        </div>
+        <a id="haldi-map-link" class="event-map-btn" href="https://maps.google.com" target="_blank">📌 View on Map</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== DRESS CODE SECTION ===== -->
+<section id="dresscode" class="dresscode-section">
+  <div class="section-container">
+    <p class="section-eyebrow">Dress Code</p>
+    <h2 class="section-title fancy">What to Wear</h2>
+    <p class="section-subtitle">Embrace the colours of the ceremony</p>
+    <div class="dresscode-grid">
+      <div class="dresscode-card">
+        <div class="color-swatch swatch-yellow"></div>
+        <h4>Turmeric Yellow</h4>
+        <p>The traditional colour of Haldi</p>
+      </div>
+      <div class="dresscode-card">
+        <div class="color-swatch swatch-orange"></div>
+        <h4>Marigold Orange</h4>
+        <p>Festive and vibrant</p>
+      </div>
+      <div class="dresscode-card">
+        <div class="color-swatch swatch-green"></div>
+        <h4>Mehndi Green</h4>
+        <p>Fresh as new beginnings</p>
+      </div>
+      <div class="dresscode-card">
+        <div class="color-swatch swatch-pink"></div>
+        <h4>Blush Pink</h4>
+        <p>Soft and graceful</p>
+      </div>
+    </div>
+    <p class="dresscode-note">✨ Feel free to wear any of these joyful, vibrant colours. Please avoid white and black.</p>
+  </div>
+</section>
+
+
+
+<!-- ===== FOOTER ===== -->
+<footer class="site-footer">
+  <div class="footer-ornament">
+    <svg viewBox="0 0 400 60" xmlns="http://www.w3.org/2000/svg" width="400">
+      <line x1="0" y1="30" x2="160" y2="30" stroke="currentColor" stroke-width="0.8" opacity="0.5"/>
+      <circle cx="180" cy="30" r="5" fill="none" stroke="currentColor" stroke-width="0.8" opacity="0.7"/>
+      <circle cx="200" cy="30" r="8" fill="none" stroke="currentColor" stroke-width="0.8" opacity="0.9"/>
+      <circle cx="220" cy="30" r="5" fill="none" stroke="currentColor" stroke-width="0.8" opacity="0.7"/>
+      <line x1="240" y1="30" x2="400" y2="30" stroke="currentColor" stroke-width="0.8" opacity="0.5"/>
+    </svg>
+  </div>
+  <p class="footer-names"><span id="footer-bride">Sandipa</span> &amp; <span id="footer-groom">Himal</span></p>
+  <p class="footer-ceremony">🌿 Haldi &amp; Mehendi Ceremony 🎨</p>
+  <p class="footer-date" id="footer-date">August 15th, 2025</p>
+  <p class="footer-tagline">Colour Our World With Your Presence ♥</p>
+</footer>
+
+<!-- ===== LIGHTBOX ===== -->
+<div id="lightbox" class="lightbox hidden" onclick="closeLightbox()">
+  <button class="lightbox-close" onclick="closeLightbox()">✕</button>
+  <button class="lightbox-prev" onclick="lightboxNav(-1, event)">&#8249;</button>
+  <img id="lightbox-img" src="" alt="Gallery image" onclick="event.stopPropagation()" />
+  <button class="lightbox-next" onclick="lightboxNav(1, event)">&#8250;</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
